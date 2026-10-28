@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luiz Felipe Lobo | Desenvolvedor de Sistemas</title>
+  <meta name="description" content="Luiz Felipe Lobo, Desenvolvedor de Sistemas na Logimodal. Experiência, projetos, stack e contato.">
+  <meta name="theme-color" content="#0a0d14">
+  <meta property="og:title" content="Luiz Felipe Lobo | Desenvolvedor de Sistemas">
+  <meta property="og:description" content="Desenvolvedor de Sistemas na Logimodal. Veja projetos, stack e contato.">
+  <meta property="og:image" content="assets/foto.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230a0d14'/><text x='50' y='66' font-size='46' font-family='Arial' font-weight='700' text-anchor='middle' fill='%237c9cff'>LL</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ===== MENU ===== -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="logo"><span class="lt">&lt;</span>LuizLobo<span class="lt"> /&gt;</span></a>
+    <nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato" class="menu-cta">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== INÍCIO ===== -->
+    <section class="hero" id="inicio">
+      <div class="glow g1"></div>
+      <div class="glow g2"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="tag"><span class="dot"></span> Desenvolvedor de Sistemas na Logimodal</p>
+          <h1>Luiz Felipe<br><span class="grad">Lobo</span></h1>
+          <p class="role">
+            <span class="prompt">&gt;</span>
+            <span id="typed">Desenvolvedor de Sistemas</span><span class="caret"></span>
+          </p>
+          <p class="lead">
+            Construo sistemas que simplificam a operação, automatizam processos e
+            transformam dados em decisões, com código limpo, foco no usuário e
+            entrega de valor real para o negócio.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://www.linkedin.com/in/luiz-felipe-lobo-666415229" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+              LinkedIn
+            </a>
+            <!-- EDITE: troque SEU-USUARIO pelo seu usuário do GitHub -->
+            <a class="btn ghost" href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.9 18 5.2 18 5.2c.7 1.6.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+              GitHub
+            </a>
+            <a class="btn link" href="#projetos">Ver projetos →</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="photo-ring">
+            <img src="assets/foto.jpg" alt="Foto de Luiz Felipe Lobo" width="960" height="1280">
+          </div>
+          <div class="code-card" aria-hidden="true">
+            <div class="code-bar"><i></i><i></i><i></i><span>dev.ts</span></div>
+<pre><code><span class="k">const</span> <span class="v">dev</span> = {
+  nome: <span class="s">"Luiz Felipe Lobo"</span>,
+  cargo: <span class="s">"Dev de Sistemas"</span>,
+  empresa: <span class="s">"Logimodal"</span>,
+  foco: [<span class="s">"sistemas"</span>, <span class="s">"automação"</span>],
+};</code></pre>
+          </div>
+        </div>
+      </div>
+      <a href="#sobre" class="scroll-hint" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <!-- ===== FAIXA DE TECNOLOGIAS ===== -->
+    <!-- EDITE: troque pelas tecnologias que você realmente usa -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>JavaScript</span><span>SQL</span><span>APIs REST</span><span>Git</span><span>HTML &amp; CSS</span><span>Banco de Dados</span><span>Automação</span><span>Integrações</span>
+        <span>JavaScript</span><span>SQL</span><span>APIs REST</span><span>Git</span><span>HTML &amp; CSS</span><span>Banco de Dados</span><span>Automação</span><span>Integrações</span>
+      </div>
+    </div>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">01 / sobre</span>
+          <h2>Código com propósito,<br>sistemas com resultado.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Sou <strong>Luiz Felipe Lobo</strong>, <strong>Desenvolvedor de Sistemas na Logimodal</strong>.
+              Meu trabalho é entender como a operação funciona de verdade e transformar isso em
+              software: sistemas internos, integrações e automações que eliminam retrabalho e
+              dão mais controle e velocidade para as equipes.
+            </p>
+            <p>
+              Trabalhar com tecnologia dentro de uma operação real me ensinou que um bom sistema
+              não é o mais complexo, e sim o que <strong>resolve o problema certo</strong>, é confiável
+              e fácil de usar. Por isso valorizo código bem estruturado, comunicação próxima com quem
+              usa o sistema e melhoria contínua.
+            </p>
+            <p>
+              Estou sempre estudando novas tecnologias e boas práticas para entregar soluções cada
+              vez mais robustas e escaláveis.
+            </p>
+          </div>
+          <aside class="info-card reveal">
+            <div class="info-row"><span>Cargo</span><strong>Desenvolvedor de Sistemas</strong></div>
+            <div class="info-row"><span>Empresa</span><strong>Logimodal</strong></div>
+            <div class="info-row"><span>Foco</span><strong>Sistemas · Integrações · Automação</strong></div>
+            <div class="info-row"><span>Localização</span><strong>Brasil</strong></div>
+            <div class="info-row"><span>Status</span><strong class="ok"><span class="dot"></span> Aberto a conexões</strong></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIÊNCIA ===== -->
+    <section class="section alt" id="experiencia">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">02 / experiência</span>
+          <h2>Trajetória profissional</h2>
+        </div>
+        <!-- EDITE: copie um bloco <article> para cada experiência -->
+        <div class="timeline">
+          <article class="job reveal">
+            <div class="job-dot"></div>
+            <div class="job-card">
+              <div class="job-top">
+                <div>
+                  <h3>Desenvolvedor de Sistemas</h3>
+                  <p class="company">Logimodal</p>
+                </div>
+                <!-- EDITE: mês/ano de início -->
+                <span class="date">Atual</span>
+              </div>
+              <ul>
+                <li>Desenvolvimento e manutenção de sistemas internos que apoiam a operação e as áreas administrativas.</li>
+                <li>Criação de integrações entre sistemas e APIs, garantindo que os dados fluam com consistência.</li>
+                <li>Automação de processos manuais, reduzindo retrabalho e tempo de execução das equipes.</li>
+                <li>Levantamento de requisitos junto aos usuários, transformando necessidades do negócio em funcionalidades.</li>
+              </ul>
+              <div class="chips"><span>Desenvolvimento</span><span>Integrações</span><span>Automação</span><span>Banco de Dados</span></div>
+            </div>
+          </article>
+          <article class="job reveal">
+            <div class="job-dot muted"></div>
+            <div class="job-card">
+              <div class="job-top">
+                <div>
+                  <!-- EDITE: seu curso e instituição -->
+                  <h3>Formação acadêmica</h3>
+                  <p class="company">Instituição de ensino</p>
+                </div>
+                <span class="date">Ano</span>
+              </div>
+              <ul>
+                <li>Curso na área de tecnologia (ex.: Análise e Desenvolvimento de Sistemas).</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STACK ===== -->
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">03 / stack</span>
+          <h2>Competências técnicas</h2>
+        </div>
+        <!-- EDITE: ajuste as tecnologias para as que você usa no dia a dia -->
+        <div class="skills">
+          <div class="skill-card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Back-end</h3>
+            <p>Regras de negócio, APIs e serviços confiáveis.</p>
+            <div class="chips"><span>APIs REST</span><span>Integrações</span><span>Lógica de negócio</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 8h18" stroke="currentColor" stroke-width="1.8"/></svg></div>
+            <h3>Front-end</h3>
+            <p>Interfaces claras e responsivas para quem usa o sistema.</p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
+            <h3>Dados</h3>
+            <p>Modelagem, consultas e relatórios para tomada de decisão.</p>
+            <div class="chips"><span>SQL</span><span>Modelagem</span><span>Relatórios</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 8.5v7M18 11.5c0 3-4 3-9.5 5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
+            <h3>Ferramentas &amp; práticas</h3>
+            <p>Versionamento, organização e qualidade de código.</p>
+            <div class="chips"><span>Git</span><span>GitHub</span><span>Clean Code</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJETOS ===== -->
+    <section class="section alt" id="projetos">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">04 / projetos</span>
+          <h2>Projetos em destaque</h2>
+        </div>
+        <!-- EDITE: descreva projetos reais (sem expor dados confidenciais da empresa) -->
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project-head">
+              <span class="project-num">01</span>
+              <span class="project-type">Sistema interno</span>
+            </div>
+            <h3>Sistemas de apoio à operação</h3>
+            <p>Desenvolvimento de ferramentas internas na Logimodal que centralizam informações e dão mais agilidade e controle às equipes no dia a dia.</p>
+            <div class="chips"><span>Back-end</span><span>Banco de Dados</span><span>Front-end</span></div>
+          </article>
+          <article class="project reveal">
+            <div class="project-head">
+              <span class="project-num">02</span>
+              <span class="project-type">Automação</span>
+            </div>
+            <h3>Integrações &amp; automações</h3>
+            <p>Conexão entre sistemas e automação de rotinas manuais, reduzindo erros e liberando tempo das pessoas para o que realmente importa.</p>
+            <div class="chips"><span>APIs</span><span>Integrações</span><span>Automação</span></div>
+          </article>
+          <article class="project reveal">
+            <div class="project-head">
+              <span class="project-num">03</span>
+              <span class="project-type">Open source</span>
+            </div>
+            <h3>Este portfólio</h3>
+            <p>Site pessoal feito do zero, sem frameworks: responsivo, acessível, com animações leves e publicado no GitHub Pages.</p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div>
+            <!-- EDITE: troque SEU-USUARIO -->
+            <a class="project-link" href="https://github.com/SEU-USUARIO/SEU-USUARIO.github.io" target="_blank" rel="noopener">Ver código →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMO TRABALHO ===== -->
+    <section class="section" id="processo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">05 / processo</span>
+          <h2>Como eu trabalho</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><span>01</span><h3>Entender</h3><p>Converso com quem usa e mapeio o problema real antes de escrever código.</p></div>
+          <div class="step reveal"><span>02</span><h3>Planejar</h3><p>Defino a solução mais simples que resolve, pensando em manutenção e escala.</p></div>
+          <div class="step reveal"><span>03</span><h3>Desenvolver</h3><p>Código organizado, versionado e testado, com entregas frequentes.</p></div>
+          <div class="step reveal"><span>04</span><h3>Evoluir</h3><p>Acompanho o uso, coleto feedback e melhoro continuamente.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section contact" id="contato">
+      <div class="container">
+        <div class="contact-card reveal">
+          <span class="kicker">06 / contato</span>
+          <h2>Vamos construir algo juntos?</h2>
+          <p>Aberto a oportunidades, projetos e boas conversas sobre tecnologia.</p>
+          <div class="contact-actions">
+            <a class="btn primary" href="https://www.linkedin.com/in/luiz-felipe-lobo-666415229" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+              Conectar no LinkedIn
+            </a>
+            <!-- EDITE: troque pelo seu e-mail pessoal (aparece também no botão de copiar) -->
+            <button class="btn ghost" id="copyEmail" data-email="seuemail@exemplo.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+              <span>Copiar e-mail</span>
+            </button>
+          </div>
+          <p class="linkedin-url">linkedin.com/in/luiz-felipe-lobo-666415229</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Luiz Felipe Lobo · Desenvolvedor de Sistemas</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
