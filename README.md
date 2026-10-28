@@ -4,6 +4,7 @@ Portfólio pessoal de **Luiz Felipe Lobo**, Desenvolvedor de Sistemas na Logimod
 
 🔗 **Acesse:** https://feliipelobo.github.io/luizfelipelobo/
 💼 **LinkedIn:** https://www.linkedin.com/in/luiz-felipe-lobo-666415229
+📧 **E-mail:** luiz.felipe.lobo1@gmail.com
 
 ## Tecnologias
 
