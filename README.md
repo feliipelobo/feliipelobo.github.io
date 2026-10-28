@@ -2,7 +2,7 @@
 
 Portfólio pessoal de **Luiz Felipe Lobo**, Desenvolvedor de Sistemas na Logimodal.
 
-🔗 **Acesse:** https://feliipelobo.github.io/luizfelipelobo/
+🔗 **Acesse:** https://feliipelobo.github.io
 💼 **LinkedIn:** https://www.linkedin.com/in/luiz-felipe-lobo-666415229
 📧 **E-mail:** luiz.felipe.lobo1@gmail.com
 
