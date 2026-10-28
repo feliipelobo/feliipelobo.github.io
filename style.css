@@ -99,14 +99,14 @@ h1 { font-size: clamp(2.8rem, 7vw, 5rem); line-height: 1; letter-spacing: -.04em
 .lead { color: var(--muted); font-size: 1.1rem; max-width: 540px; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; align-items: center; }
 
-.hero-visual { position: relative; justify-self: center; padding-bottom: 40px; }
+.hero-visual { position: relative; justify-self: center; padding-bottom: 130px; }
 .photo-ring {
   width: min(340px, 74vw); aspect-ratio: 4 / 5; border-radius: 28px; padding: 2px;
   background: var(--grad); box-shadow: 0 30px 80px -30px rgba(124, 156, 255, .55);
 }
-.photo-ring img { width: 100%; height: 100%; object-fit: cover; object-position: 38% 30%; border-radius: 26px; filter: grayscale(.2) contrast(1.05); }
+.photo-ring img { width: 100%; height: 100%; object-fit: cover; object-position: center; border-radius: 26px; filter: grayscale(.2) contrast(1.05); }
 .code-card {
-  position: absolute; left: -70px; bottom: 0; width: 290px;
+  position: absolute; left: -90px; bottom: 0; width: 280px;
   background: rgba(13, 18, 27, .92); backdrop-filter: blur(12px);
   border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
   box-shadow: 0 24px 60px -20px rgba(0, 0, 0, .7);
@@ -120,17 +120,6 @@ h1 { font-size: clamp(2.8rem, 7vw, 5rem); line-height: 1; letter-spacing: -.04em
 .code-card pre { padding: 14px 16px; font-family: var(--mono); font-size: .76rem; line-height: 1.7; color: var(--text); overflow: hidden; }
 .code-card .k { color: #c792ea; } .code-card .v { color: var(--accent); } .code-card .s { color: var(--accent-2); }
 @keyframes float { 50% { transform: translateY(-10px); } }
-
-.scroll-hint { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); width: 26px; height: 42px; border: 2px solid var(--line); border-radius: 20px; }
-.scroll-hint span { position: absolute; left: 50%; top: 8px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--muted); animation: scroll 1.8s infinite; }
-@keyframes scroll { to { transform: translateY(14px); opacity: 0; } }
-
-/* ---------- Faixa de tecnologias ---------- */
-.marquee { border-block: 1px solid var(--line); background: var(--bg-alt); overflow: hidden; padding: 18px 0; mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
-.marquee-track { display: flex; gap: 56px; width: max-content; animation: marquee 28s linear infinite; }
-.marquee span { font-family: var(--mono); color: var(--muted); font-size: .95rem; white-space: nowrap; }
-.marquee span::before { content: "◆"; color: var(--accent); margin-right: 14px; font-size: .6rem; vertical-align: 2px; }
-@keyframes marquee { to { transform: translateX(-50%); } }
 
 /* ---------- Seções ---------- */
 .section { padding: 120px 0; }
@@ -222,7 +211,7 @@ h2 { font-size: clamp(2rem, 4.2vw, 2.9rem); letter-spacing: -.03em; line-height:
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
-  .code-card, .dot, .scroll-hint span, .marquee-track, .caret { animation: none; }
+  .code-card, .dot, .caret { animation: none; }
 }
 
 /* ---------- Responsivo ---------- */
@@ -251,6 +240,5 @@ h2 { font-size: clamp(2rem, 4.2vw, 2.9rem); letter-spacing: -.03em; line-height:
   .job-card { padding: 22px; }
   .code-card { left: 50%; transform: translateX(-50%); animation: none; width: min(280px, 86vw); bottom: -10px; }
   .hero-visual { padding-bottom: 150px; }
-  .scroll-hint { display: none; }
   .contact-card { padding: 60px 20px; }
 }
